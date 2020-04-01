@@ -1,0 +1,7 @@
+MVI L,3596	;Store the value to L register
+HLT
+
+
+;We can store number ranging in 0 to 255 OR
+;0 to FF
+;Since this is a 8 bit processor

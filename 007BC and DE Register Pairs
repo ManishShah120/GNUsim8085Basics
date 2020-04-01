@@ -1,0 +1,31 @@
+;BC and DE register pair
+;quick review FROM 04FILE on how to load data from memory to register
+LDA 0005H
+MOV B,A
+LDA 0006H
+ADD B
+STA 000BH	;Store the result at 000B address
+HLT
+
+;***********************************************************************
+;Recap of 06FILE
+;Using an hypothetical register M
+MVI H,00H
+MVI L,02H
+MOV A,M
+ADI 01H
+MOV M,A
+HLT
+
+;***********************************************************************
+MVI B,00H
+MVI C,03H
+
+MVI D,00H
+MVI E,05H
+
+LDAX B		;ld = LOAD, a = Accumulator, x signifies that u have to use b as a register;ldax means load inside the resgiter
+INR A
+STAX D
+
+HLT

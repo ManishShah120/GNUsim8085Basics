@@ -1,0 +1,37 @@
+;Second Tutorial : Topic - Basic operations with registers
+;We are storing the data into the D register
+MVI D,05H
+;We are moving data from one register to another
+;i.e., we are moving value of D to B
+MOV B,D
+;Halting our program
+HLT
+
+
+;Second Program Adding two numbers
+MVI A,05H
+MVI B,06H
+ADD B
+;WHATEVER THE VALUE OF Accumulator WILL BE THE result will be stored at the
+;default accumulator(A)
+HLT
+
+
+
+;Third Program Subtracting two numbers
+MVI A,07H
+MVI B,02H
+SUB B
+;Whatever is the content of B will be subracted from the accumulator and the result will
+;will be stored in the accumulater
+HLT
+
+
+;Fourth program
+MVI A,07H
+SUI 05H
+; Sui will store the imediate value of the result in the accumulator
+;Subtract immediate from the accumulator
+HLT
+
+;;Also we can use ADI instead of ADD
