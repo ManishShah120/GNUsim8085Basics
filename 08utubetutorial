@@ -1,9 +1,0 @@
-;Program Counter OR PC REGISTER
-;It is a register which keeps the address
-;of next instruction to be executed inside a program.
-MVI B,0AH
-MOV A,B
-INR A
-HLT
-
-;Only single memory is used i.e., 64bytes
