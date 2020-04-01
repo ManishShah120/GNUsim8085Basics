@@ -1,7 +1,0 @@
-;Hello this is our first program
-;Wap to store the value of hexadecimal 12 into 'A' register
-MVI A,12	;Moving the value of 12h in A register| we stored 12h in A register
-HLT		;This will halt the computer i.e., it will stop the program
-
-;If we remove the H from 12H then the number will be treated as 12 in hexadecimal
-;So 'C' will be stored
