@@ -27,11 +27,11 @@ These programs are written in GNUsim8085 linux. These programs are beginners fri
 # Contributing
 This is my personal learning project of Assembly Languages.
 Feel free to FORK | PULL request to submit more programs.
-> Only programs written in GNUsim8085 will be merged.
-> Beautify/Format your code before making a PR. Poorly stuctured code with inconsistent spacing and bad variable name will not be merged. 
-> Use this tool to beautify your code :[Click](https://codebeautify.org/c-formatter-beautifier)
-> Make sure your program works after beautifying it.
-> Please check your spellings before making a PR
+> Only programs written in GNUsim8085 will be merged.<br>
+> Beautify/Format your code before making a PR. Poorly stuctured code with inconsistent spacing and bad variable name will not be merged. <br>
+> Use this tool to beautify your code :[Click](https://codebeautify.org/c-formatter-beautifier)<br>
+> Make sure your program works after beautifying it.<br>
+> Please check your spellings before making a PR<br>
 > Comment code properly.
 
 # Authors
